@@ -86,6 +86,7 @@ header .image {
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-bottom: 70px;
 }
 
 h2 {
@@ -108,4 +109,29 @@ h2 {
     flex-direction: column;
     align-items: center;
     max-width: 200px;
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    text-align: center;
+    max-width: 900px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.textbox .thor {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 40px;
+    margin-bottom: 100px;
 }
