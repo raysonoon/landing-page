@@ -134,6 +134,7 @@ h2 {
 .textbox .thor {
     font-weight: bold;
     text-align: right;
+    font-size: 24px;
     margin-right: 40px;
     margin-bottom: 100px;
 }
@@ -176,4 +177,14 @@ h2 {
     text-align: center;
     padding: 10px 30px;
     margin: 50px 100px;
+}
+
+.footer {
+    background: #1F2937;
+    color: #F9FAF8; 
+    font-size: 24px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
