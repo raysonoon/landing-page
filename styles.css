@@ -5,6 +5,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
     font-family: Hero, Arial, Helvetica, sans-serif;
 }
 
@@ -12,6 +13,7 @@
     background: #1F2937;
     color: #F9FAF8; 
     display: flex;
+    gap: 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -42,6 +44,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 70px;
 }
 
 .container {
@@ -82,10 +85,12 @@ header .image {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .boxes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     margin-bottom: 70px;
@@ -95,12 +100,14 @@ h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin-top: 20px;
     text-align: center;
 }
 
 .square {
     width: 200px;
     height: 200px;
+    margin-top: 20px;
     border: 5px solid #3882F6;
     border-radius: 25px;
     background-color: transparent;
@@ -110,6 +117,8 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    gap: 10px;
     max-width: 200px;
 }
 
@@ -131,10 +140,11 @@ h2 {
     margin-bottom: 0;
 }
 
-.textbox .thor {
+.textbox .person {
     font-weight: bold;
     text-align: right;
     font-size: 24px;
+    margin-top: 20px;
     margin-right: 40px;
     margin-bottom: 100px;
 }
@@ -183,6 +193,7 @@ h2 {
     background: #1F2937;
     color: #F9FAF8; 
     font-size: 24px;
+    text-align: center;
     height: 150px;
     display: flex;
     justify-content: center;
