@@ -1,3 +1,5 @@
 # landing-page
+A simple landing page using HTML & CSS. Access the project [here](https://raysonoon.github.io/landing-page/)
 
-An attempt to create a landing page using HTML & CSS
+## Skill
+HTML, CSS
